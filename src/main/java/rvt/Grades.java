@@ -12,15 +12,15 @@ public class Grades {
         } else if (grade <= 49) {
             System.out.println("Failed");
         } else if (grade <= 59) {
-            System.out.println("Very weak");
+            System.out.println("1");
         } else if (grade <= 69) {
-            System.out.println("Weak");
+            System.out.println("2");
         } else if (grade <= 79) {
-            System.out.println("Satisfactory");
+            System.out.println("3");
         } else if (grade <= 89) {
-            System.out.println("Good");
+            System.out.println("4");
         } else {
-            System.out.println("Excellent");
+            System.out.println("5");
         }
     }
 }
